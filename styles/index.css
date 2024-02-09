@@ -1,7 +1,3 @@
-* {
-    /* border: 1px solid red; */
-}
-
 html, body {
     background-color: #ffef93;
     height: 100%;
@@ -11,32 +7,40 @@ html, body {
 
 #main {
     flex-direction: column;
-    /* border: 3px solid green; */
     margin-top: 100px;
+}
+
+#logoImg {
+    margin-bottom: -45px;
 }
 
 h1 {
     color: #47473B;
-    font-family: Georgia,Times,Times New Roman,serif; 
-    font-style: italic;
+    font-family: 'Dela Gothic One', sans-serif;
+    /* font-style: italic; */
+    margin: 30px 0px;
+    font-size: 24px;
 }
 
 #socialMedia {
     display: flex;
-    width: 75px;
-    height: 75px;
+    flex-direction: column;
+    width: 160px;
+    height: 160px;
     text-align: center;
     align-self: center;
-    margin-top: 20px;
+    align-items: center;
 }
 
-#igIcon {
+.socialMediaIcon {
+    border: 4px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #d1c479;
-    width: 75px;
     border-radius: 290px;
+    padding: 12px;
+    margin-bottom: 6px;
 }
 
 #devLabel {
@@ -45,7 +49,8 @@ h1 {
     bottom: 0;
     right: 0;
     margin-right: 20px;
-    a svg {
-      margin-left: 5px;  
-    }
+}
+
+#githubIcon {
+    margin-left: 2px;
 }
